@@ -1,0 +1,68 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }      
+
+        .container {
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            max-width: 80vw;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .amount{
+            padding: 10px;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            width: 144px;
+            height: 10px;
+        }
+
+        .container form label {
+            font-size: 25px;
+        }
+
+        .container form input[type='number'],
+        select,
+        label {
+            font-size: 25px;
+            width: 23vw;
+            margin-bottom: 23px;
+            margin-right: 30px;
+        }
+
+        .btn {
+            width: 144px;
+            padding: 5px 8px;
+            font-size: 20px;
+            background: #e0d0f5;
+            color: black;
+            border-radius: 13px;
+            cursor: pointer;
+        }
+
+        .result{
+            display: flex;
+            padding: 20px;
+            font-size: medium;
+            font-size: 20px;
+        }
+
+        @media (max-width: 600px) {
+
+            .container {
+                max-width: 95vw;
+            }
+
+            .container form input[type='number'],
+            select,
+            label {
+                width: 80vw;
+            }
+        }
+    
